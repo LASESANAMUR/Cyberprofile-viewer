@@ -1,0 +1,12 @@
+{{
+{"title": "escf",
+ "shortName": "tttttt",
+ "logoUrl": "string",
+ "mission": "sss",
+ "alternativeTitle": "atatht",
+ "deliverable": "RRRRR",
+ "knowledge": "string",
+ "keySkill": "string",
+ "mainTask": "string",
+ "summaryStatement": "string"}
+}}
