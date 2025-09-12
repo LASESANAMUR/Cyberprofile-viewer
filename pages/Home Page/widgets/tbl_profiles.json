@@ -198,7 +198,7 @@
   "mobileRightColumn": 53,
   "mobileTopRow": 14,
   "needsErrorInfo": false,
-  "onRowSelected": "{{storeValue('data', tbl_profiles.selectedRow).then(() => {\n  navigateTo('Page2', {}, 'SAME_WINDOW');\n});}}",
+  "onRowSelected": "{{storeValue('data', tbl_profiles.selectedRow).then(() => {\n  navigateTo('Profile detail', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Page non charhée', 'error');\n});}}",
   "parentColumnSpace": 6.9375,
   "parentId": "0",
   "parentRowSpace": 10,
