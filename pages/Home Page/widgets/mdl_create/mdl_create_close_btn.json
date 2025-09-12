@@ -18,27 +18,27 @@
       "key": "onClick"
     }
   ],
-  "iconName": "drawer-left-filled",
+  "iconName": "cross",
   "iconSize": 24,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "ub6xu0ggb1",
-  "leftColumn": 58,
+  "leftColumn": 62,
   "minWidth": 50,
   "mobileBottomRow": 4,
   "mobileLeftColumn": 58,
   "mobileRightColumn": 64,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{showModal(Home.name);}}",
-  "parentId": "guxxt45pz9",
+  "onClick": "{{closeModal(mdl_create.name);}}",
+  "parentId": "bytdz17lhu",
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
   "rightColumn": 64,
   "topRow": 0,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "le34wddk0p",
-  "widgetName": "mdl_update_close_btn"
+  "widgetId": "ag6r5e9et3",
+  "widgetName": "mdl_create_close_btn"
 }

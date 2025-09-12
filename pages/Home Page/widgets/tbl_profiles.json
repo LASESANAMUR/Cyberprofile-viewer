@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
-  "bottomRow": 71,
+  "bottomRow": 70,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
   "cachedTableData": {},
   "canFreezeColumn": true,
@@ -198,9 +198,9 @@
   "mobileRightColumn": 53,
   "mobileTopRow": 14,
   "needsErrorInfo": false,
-  "onRowSelected": "{{showModal(mdl_profile_detail.name);}}",
+  "onRowSelected": "{{storeValue('data', tbl_profiles.selectedRow).then(() => {\n  navigateTo('Page2', {}, 'SAME_WINDOW');\n});}}",
   "parentColumnSpace": 6.9375,
-  "parentId": "i1t940vz3p",
+  "parentId": "0",
   "parentRowSpace": 10,
   "primaryColumns": {
     "alternativeTitles": {
@@ -693,12 +693,12 @@
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{getcybersecprofiles.data}}",
   "textSize": "0.875rem",
-  "topRow": 6,
+  "topRow": 5,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "variant": "DEFAULT",
   "version": 2,
   "verticalAlignment": "CENTER",
-  "widgetId": "b0a9u1z1f7",
+  "widgetId": "it75xxp1qo",
   "widgetName": "tbl_profiles"
 }

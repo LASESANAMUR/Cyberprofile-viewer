@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "6849df2b7c135a6e4b1d97cd_f45efc1b-ede6-41e0-96ec-7a367af5e057",
+  "gitSyncId": "68a0b3a7aef07a7c83301b38_353a5a46-fe0d-40e5-a181-ca58df976ab1",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 380,
+          "bottomRow": 930,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1292,
+          "minHeight": 760,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 124,
+          "snapRows": 74,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Page1",
-    "slug": "page1"
+    "name": "Profile detail",
+    "slug": "profile-detail"
   }
 }

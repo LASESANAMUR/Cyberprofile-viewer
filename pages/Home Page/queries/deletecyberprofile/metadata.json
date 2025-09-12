@@ -1,6 +1,6 @@
 {
   "gitSyncId": "68a0b3a7aef07a7c83301b38_1d7c2b20-eb03-4590-827a-3bbda3a7b455",
-  "id": "Page1_deletecyberprofile",
+  "id": "Home Page_deletecyberprofile",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -48,7 +48,7 @@
       }
     ],
     "name": "deletecyberprofile",
-    "pageId": "Page1",
+    "pageId": "Home Page",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

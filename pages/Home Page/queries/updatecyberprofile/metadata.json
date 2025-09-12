@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "68a0b3a7aef07a7c83301b38_fc53f8a6-20d2-4db1-8995-3c961e65a840",
-  "id": "Page1_updatecyberprofile",
+  "gitSyncId": "68a0b3a7aef07a7c83301b38_ee0829be-489e-4d41-a62b-b97c546c3754",
+  "id": "Home Page_updatecyberprofile",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{{\n{\"title\": \"escf\",\n \"shortName\": \"tttttt\",\n \"logoUrl\": \"string\",\n \"mission\": \"sss\",\n \"alternativeTitle\": \"atatht\",\n \"deliverable\": \"RRRRR\",\n \"knowledge\": \"string\",\n \"keySkill\": \"string\",\n \"mainTask\": \"string\",\n \"summaryStatement\": \"string\"}\n}}",
+      "body": "{{updateJSONForm.formData}}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -44,14 +44,14 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "body"
+        "key": "path"
       },
       {
-        "key": "path"
+        "key": "body"
       }
     ],
     "name": "updatecyberprofile",
-    "pageId": "Page1",
+    "pageId": "Home Page",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

@@ -1,11 +1,11 @@
 {
   "animateLoading": true,
-  "autoGenerateForm": true,
+  "autoGenerateForm": false,
   "backgroundColor": "#fff",
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 117,
+  "bottomRow": 93,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "ARRAY": {
@@ -105,13 +105,10 @@
       "key": "resetButtonStyles.borderRadius"
     },
     {
-      "key": "sourceData"
+      "key": "schema.__root_schema__.children.title.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.status.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.status.accentColor"
+      "key": "schema.__root_schema__.children.title.borderRadius"
     },
     {
       "key": "schema.__root_schema__.defaultValue"
@@ -123,22 +120,22 @@
       "key": "schema.__root_schema__.cellBorderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.shortname.defaultValue"
+      "key": "schema.__root_schema__.children.shortName.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.shortname.accentColor"
+      "key": "schema.__root_schema__.children.shortName.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.shortname.borderRadius"
+      "key": "schema.__root_schema__.children.shortName.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.summaryStatement.defaultValue"
+      "key": "schema.__root_schema__.children.logoUrl.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.summaryStatement.accentColor"
+      "key": "schema.__root_schema__.children.logoUrl.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.summaryStatement.borderRadius"
+      "key": "schema.__root_schema__.children.logoUrl.borderRadius"
     },
     {
       "key": "schema.__root_schema__.children.mission.defaultValue"
@@ -150,28 +147,22 @@
       "key": "schema.__root_schema__.children.mission.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.logo.defaultValue"
+      "key": "schema.__root_schema__.children.alternativeTitle.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.logo.borderRadius"
+      "key": "schema.__root_schema__.children.alternativeTitle.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.alternativeTitles.defaultValue"
+      "key": "schema.__root_schema__.children.alternativeTitle.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.alternativeTitles.accentColor"
+      "key": "schema.__root_schema__.children.deliverable.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.alternativeTitles.borderRadius"
+      "key": "schema.__root_schema__.children.deliverable.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.keySkill.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.keySkill.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.keySkill.borderRadius"
+      "key": "schema.__root_schema__.children.deliverable.borderRadius"
     },
     {
       "key": "schema.__root_schema__.children.knowledge.defaultValue"
@@ -183,70 +174,43 @@
       "key": "schema.__root_schema__.children.knowledge.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.deliverables.defaultValue"
+      "key": "schema.__root_schema__.children.keySkill.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.deliverables.accentColor"
+      "key": "schema.__root_schema__.children.keySkill.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.deliverables.borderRadius"
+      "key": "schema.__root_schema__.children.keySkill.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.mainTasks.defaultValue"
+      "key": "schema.__root_schema__.children.mainTask.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.mainTasks.accentColor"
+      "key": "schema.__root_schema__.children.mainTask.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.mainTasks.borderRadius"
+      "key": "schema.__root_schema__.children.mainTask.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.logo.children.logoId.defaultValue"
+      "key": "schema.__root_schema__.children.summaryStatement.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.logo.children.logoId.accentColor"
+      "key": "schema.__root_schema__.children.summaryStatement.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.logo.children.logoId.borderRadius"
+      "key": "schema.__root_schema__.children.summaryStatement.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.logo.children.url.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.logo.children.url.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.logo.children.url.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.logo.cellBorderRadius"
+      "key": "sourceData"
     },
     {
       "key": "schema.__root_schema__.children.title.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.title.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.title.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.profileId.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.profileId.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.profileId.borderRadius"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
-    },
-    {
-      "key": "schema.__root_schema__.children.status.defaultValue"
     }
   ],
   "dynamicTriggerPathList": [
@@ -259,20 +223,20 @@
   "flexVerticalAlignment": "start",
   "isLoading": false,
   "isVisible": true,
-  "key": "uumih0glo5",
-  "leftColumn": 0,
-  "maxAllowedFields": "100",
+  "key": "eoguskn9oa",
+  "leftColumn": 4,
+  "maxAllowedFields": "50\n",
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 49,
-  "mobileLeftColumn": 17,
-  "mobileRightColumn": 42,
-  "mobileTopRow": 8,
+  "mobileBottomRow": 53,
+  "mobileLeftColumn": 14,
+  "mobileRightColumn": 39,
+  "mobileTopRow": 12,
   "needsErrorInfo": false,
-  "onSubmit": "{{updatecyberprofile.run()}}",
-  "originalBottomRow": 117,
-  "originalTopRow": 7,
+  "onSubmit": "{{updatecyberprofile.run().then(() => {\n  closeModal(mdl_update.name);\n});}}",
+  "originalBottomRow": 93,
+  "originalTopRow": 1,
   "parentColumnSpace": 6.9375,
   "parentId": "guxxt45pz9",
   "parentRowSpace": 10,
@@ -285,63 +249,63 @@
     "buttonVariant": "SECONDARY"
   },
   "responsiveBehavior": "fill",
-  "rightColumn": 53,
+  "rightColumn": 58,
   "schema": {
     "__root_schema__": {
       "accessor": "__root_schema__",
-      "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+      "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
       "boxShadow": "none",
-      "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+      "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
       "cellBoxShadow": "none",
       "children": {
-        "alternativeTitles": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
-          "accessor": "alternativeTitles",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+        "alternativeTitle": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
+          "accessor": "alternativeTitle",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.alternativeTitles))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.alternativeTitle))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
           "fieldType": "Text Input",
           "iconAlign": "left",
-          "identifier": "alternativeTitles",
+          "identifier": "alternativeTitle",
           "isCustomField": false,
           "isDisabled": false,
-          "isRequired": false,
+          "isRequired": true,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Alternative Titles",
+          "label": "Alternative Title",
           "labelTextSize": "0.875rem",
-          "originalIdentifier": "alternativeTitles",
+          "originalIdentifier": "alternativeTitle",
           "position": 4,
-          "sourceData": ""
+          "sourceData": "string"
         },
-        "deliverables": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
-          "accessor": "deliverables",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+        "deliverable": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
+          "accessor": "deliverable",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.deliverables))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.deliverable))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
           "fieldType": "Text Input",
           "iconAlign": "left",
-          "identifier": "deliverables",
+          "identifier": "deliverable",
           "isCustomField": false,
           "isDisabled": false,
-          "isRequired": false,
+          "isRequired": true,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Deliverables",
+          "label": "Deliverable",
           "labelTextSize": "0.875rem",
-          "originalIdentifier": "deliverables",
-          "position": 8,
-          "sourceData": ""
+          "originalIdentifier": "deliverable",
+          "position": 5,
+          "sourceData": "string"
         },
         "keySkill": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
           "accessor": "keySkill",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
@@ -351,19 +315,19 @@
           "identifier": "keySkill",
           "isCustomField": false,
           "isDisabled": false,
-          "isRequired": false,
+          "isRequired": true,
           "isSpellCheck": false,
           "isVisible": true,
           "label": "Key Skill",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "keySkill",
-          "position": 6,
-          "sourceData": ""
+          "position": 7,
+          "sourceData": "string"
         },
         "knowledge": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
           "accessor": "knowledge",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
@@ -373,110 +337,63 @@
           "identifier": "knowledge",
           "isCustomField": false,
           "isDisabled": false,
-          "isRequired": false,
+          "isRequired": true,
           "isSpellCheck": false,
           "isVisible": true,
           "label": "Knowledge",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "knowledge",
-          "position": 7,
-          "sourceData": ""
+          "position": 6,
+          "sourceData": "string"
         },
-        "logo": {
-          "accessor": "logo",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
-          "boxShadow": "none",
-          "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
-          "cellBoxShadow": "none",
-          "children": {
-            "logoId": {
-              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
-              "accessor": "logoId",
-              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
-              "boxShadow": "none",
-              "children": {},
-              "dataType": "number",
-              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.logo.logoId))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
-              "fieldType": "Number Input",
-              "iconAlign": "left",
-              "identifier": "logoId",
-              "isCustomField": false,
-              "isDisabled": false,
-              "isRequired": false,
-              "isSpellCheck": false,
-              "isVisible": true,
-              "label": "Logo Id",
-              "labelTextSize": "0.875rem",
-              "originalIdentifier": "logoId",
-              "position": 0,
-              "sourceData": 1
-            },
-            "url": {
-              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
-              "accessor": "url",
-              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
-              "boxShadow": "none",
-              "children": {},
-              "dataType": "string",
-              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.logo.url))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
-              "fieldType": "Text Input",
-              "iconAlign": "left",
-              "identifier": "url",
-              "isCustomField": false,
-              "isDisabled": false,
-              "isRequired": false,
-              "isSpellCheck": false,
-              "isVisible": true,
-              "label": "Url",
-              "labelTextSize": "0.875rem",
-              "originalIdentifier": "url",
-              "position": 1,
-              "sourceData": "/images/cyber-logo.png"
-            }
-          },
-          "dataType": "object",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.logo))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
-          "fieldType": "Object",
-          "identifier": "logo",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": false,
-          "isVisible": true,
-          "label": "Logo",
-          "labelTextSize": "0.875rem",
-          "originalIdentifier": "logo",
-          "position": 5,
-          "sourceData": {
-            "logoId": 1,
-            "url": "/images/cyber-logo.png"
-          }
-        },
-        "mainTasks": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
-          "accessor": "mainTasks",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+        "logoUrl": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
+          "accessor": "logoUrl",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.mainTasks))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.logoUrl))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
           "fieldType": "Text Input",
           "iconAlign": "left",
-          "identifier": "mainTasks",
+          "identifier": "logoUrl",
           "isCustomField": false,
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Main Tasks",
+          "label": "Logo Url",
           "labelTextSize": "0.875rem",
-          "originalIdentifier": "mainTasks",
-          "position": 9,
-          "sourceData": ""
+          "originalIdentifier": "logoUrl",
+          "position": 2,
+          "sourceData": "string"
+        },
+        "mainTask": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
+          "accessor": "mainTask",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.mainTask))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "mainTask",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": true,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Main Task",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "mainTask",
+          "position": 8,
+          "sourceData": "string"
         },
         "mission": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
           "accessor": "mission",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
@@ -486,83 +403,41 @@
           "identifier": "mission",
           "isCustomField": false,
           "isDisabled": false,
-          "isRequired": false,
+          "isRequired": true,
           "isSpellCheck": false,
           "isVisible": true,
           "label": "Mission",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "mission",
           "position": 3,
-          "sourceData": ""
+          "sourceData": "string"
         },
-        "profileId": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
-          "accessor": "profileId",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
-          "boxShadow": "none",
-          "children": {},
-          "dataType": "number",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.profileId))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
-          "fieldType": "Number Input",
-          "iconAlign": "left",
-          "identifier": "profileId",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": false,
-          "isSpellCheck": false,
-          "isVisible": false,
-          "label": "Profile Id",
-          "labelTextSize": "0.875rem",
-          "originalIdentifier": "profileId",
-          "position": 11,
-          "sourceData": 16
-        },
-        "shortname": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
-          "accessor": "shortname",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+        "shortName": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
+          "accessor": "shortName",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.shortname))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
           "fieldType": "Text Input",
           "iconAlign": "left",
-          "identifier": "shortname",
+          "identifier": "shortName",
           "isCustomField": false,
           "isDisabled": false,
-          "isRequired": false,
+          "isRequired": true,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Shortname",
+          "label": "Short Name",
           "labelTextSize": "0.875rem",
-          "originalIdentifier": "shortname",
+          "originalIdentifier": "shortName",
           "position": 1,
-          "sourceData": ""
-        },
-        "status": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
-          "accessor": "status",
-          "alignWidget": "LEFT",
-          "boxShadow": "none",
-          "children": {},
-          "dataType": "boolean",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.status))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
-          "fieldType": "Switch",
-          "identifier": "status",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": false,
-          "isVisible": true,
-          "label": "Status",
-          "labelTextSize": "0.875rem",
-          "originalIdentifier": "status",
-          "position": 10,
-          "sourceData": true
+          "sourceData": "string"
         },
         "summaryStatement": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
           "accessor": "summaryStatement",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
@@ -572,19 +447,19 @@
           "identifier": "summaryStatement",
           "isCustomField": false,
           "isDisabled": false,
-          "isRequired": false,
+          "isRequired": true,
           "isSpellCheck": false,
           "isVisible": true,
           "label": "Summary Statement",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "summaryStatement",
-          "position": 2,
-          "sourceData": ""
+          "position": 9,
+          "sourceData": "string"
         },
         "title": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
           "accessor": "title",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
@@ -594,7 +469,7 @@
           "identifier": "title",
           "isCustomField": false,
           "isDisabled": false,
-          "isRequired": false,
+          "isRequired": true,
           "isSpellCheck": false,
           "isVisible": true,
           "label": "Title",
@@ -605,7 +480,7 @@
         }
       },
       "dataType": "object",
-      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(updateJSONForm.sourceData, updateJSONForm.formData, updateJSONForm.fieldState)}}",
+      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
       "fieldType": "Object",
       "identifier": "__root_schema__",
       "isCustomField": false,
@@ -765,11 +640,11 @@
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "buttonVariant": "PRIMARY"
   },
-  "title": "Update current profile",
-  "topRow": 7,
+  "title": "Update Profile ",
+  "topRow": 1,
   "type": "JSON_FORM_WIDGET",
   "useSourceData": false,
   "version": 1,
-  "widgetId": "1m2x0n24ka",
+  "widgetId": "mmojoi55qo",
   "widgetName": "updateJSONForm"
 }

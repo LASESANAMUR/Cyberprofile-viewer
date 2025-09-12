@@ -231,7 +231,7 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 12,
   "needsErrorInfo": false,
-  "onSubmit": "{{createcyberprofile.run().then(() => {\n  showAlert('successfully added', 'success');\n  closeModal(mdl_create.name);\n  showModal(Home.name);\n}).catch(() => {\n  showAlert('Erreur', 'error');\n});}}",
+  "onSubmit": "{{createcyberprofile.run().then(() => {\n  showAlert('successfully added', 'success');\n  closeModal(mdl_create.name);\n}).catch(() => {\n  showAlert('Erreur', 'error');\n});}}",
   "originalBottomRow": 92,
   "originalTopRow": 0,
   "parentColumnSpace": 6.9375,

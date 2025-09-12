@@ -22,13 +22,17 @@
   },
   "applicationVersion": 2,
   "collapseInvisibleWidgets": true,
-  "color": "#F1DEFF",
+  "color": "#C2DAF0",
   "evaluationVersion": 2,
-  "icon": "alien",
+  "icon": "arrow-left",
   "pages": [
     {
-      "id": "Page1",
+      "id": "Home Page",
       "isDefault": true
+    },
+    {
+      "id": "Profile detail",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
