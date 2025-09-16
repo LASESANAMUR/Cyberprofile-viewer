@@ -31,7 +31,7 @@
   "mobileRightColumn": 13,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "onClick": "{{showModal(mdl_create.name);}}",
+  "onClick": "{{showModal(mdl_create.name).then(() => {\n  getcybersecprofiles.run();\n}).catch(() => {\n  getcybersecprofiles.run();\n});}}",
   "parentColumnSpace": 6.9375,
   "parentId": "0",
   "parentRowSpace": 10,
