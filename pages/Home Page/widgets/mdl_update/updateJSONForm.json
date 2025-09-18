@@ -234,7 +234,7 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 12,
   "needsErrorInfo": false,
-  "onSubmit": "{{updatecyberprofile.run().then(() => {\n  closeModal(mdl_update.name);\n});}}",
+  "onSubmit": "{{updatecyberprofile.run().then(() => {\n  closeModal(mdl_update.name);\n  getcybersecprofiles.run();\n});}}",
   "originalBottomRow": 93,
   "originalTopRow": 1,
   "parentColumnSpace": 6.9375,
